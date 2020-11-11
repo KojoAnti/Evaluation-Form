@@ -1,0 +1,94 @@
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    float:right;
+    margin-right: 20%;
+}
+#date{
+    margin-left: 32px;
+}
+#cmp{
+    margin-left: 7px;
+}
+input{
+    width: 20%;
+    padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input [type=date]{
+margin: 50px;
+}
+label{
+    font-weight: bold;
+}
+legend{
+    margin: 30px;
+}
+table.table{
+    table-layout: fixed ;
+  width: 100% ;
+  
+}
+caption{
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+    background-color: rgb(61, 53, 53);
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+  border-collapse: collapse;
+  font-weight: bold;
+
+  }
+  th{
+    background-color: rgb(61, 53, 53);
+    color: white;
+    padding: 13px; 
+    border:none;
+    font-size: 18px;
+    text-align: left;
+    background-color: yellow;
+    color: black;
+    
+  }
+  td{
+      padding: 15px;
+      text-align: left;
+      border-spacing: 15px;
+      background-color: black;
+      color: rgb(168, 168, 74);
+  }
+  td input[type="checkbox"] {
+    float: left;
+    margin: 0 auto;
+    width: 100%; 
+}
+#comments{
+    background-color: yellow;
+    color: black;   
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 18px;
+    resize: none;
+  }
+.button{
+   background-color: black;
+   color:rgb(168, 168, 74) ;
+}
+footer{
+    text-align: right;
+   color:black
+}
